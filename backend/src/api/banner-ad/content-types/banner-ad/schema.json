@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_ads",
+  "info": {
+    "singularName": "banner-ad",
+    "pluralName": "banner-ads",
+    "displayName": "BannerAd",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "neme": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "targetUrl": {
+      "type": "string"
+    },
+    "expirationDate": {
+      "type": "datetime"
+    },
+    "imageLibrary": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": true
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

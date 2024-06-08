@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "websites",
+  "info": {
+    "singularName": "website",
+    "pluralName": "websites",
+    "displayName": " website",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 160
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Telegram": {
+      "type": "string"
+    },
+    "release": {
+      "type": "string"
+    },
+    "tips": {
+      "type": "string"
+    },
+    "footer": {
+      "type": "text"
+    },
+    "nameTemplate": {
+      "type": "string"
+    },
+    "API_BASE_URL": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tags.tag"
+    },
+    "AllianceA": {
+      "type": "blocks"
+    },
+    "AllianceB": {
+      "type": "blocks"
+    },
+    "PlayLink": {
+      "displayName": "PlayLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "play-link.play-link"
+    }
+  }
+}

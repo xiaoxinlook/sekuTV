@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "friend_links",
+  "info": {
+    "singularName": "friend-link",
+    "pluralName": "friend-links",
+    "displayName": "FriendLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": true
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

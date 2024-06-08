@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "icon_ads",
+  "info": {
+    "singularName": "icon-ad",
+    "pluralName": "icon-ads",
+    "displayName": "IconAd",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nema": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "targetUrl": {
+      "type": "string"
+    },
+    "expirationDate": {
+      "type": "datetime"
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "imageLibrary": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
